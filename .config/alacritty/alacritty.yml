@@ -1,7 +1,7 @@
 window:
   padding:
-    x: 5
-    y: 5
+    x: 10
+    y: 10
   class:
     instance: Alacritty
     general: Alacritty
@@ -24,3 +24,7 @@ font:
     family: Fira Code
     style: Retina
   size: 16
+alt_send_esc: false
+key_bindings:
+  - { key: Right, mods: Alt, chars: "\x1BF" }
+  - { key: Left,  mods: Alt, chars: "\x1BB" }
