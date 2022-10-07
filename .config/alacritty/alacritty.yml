@@ -5,6 +5,7 @@ window:
   class:
     instance: Alacritty
     general: Alacritty
+  opacity: 0.999 # this is necessary for MacOS not lag when switching windows
 
 scrolling:
   history: 100000
