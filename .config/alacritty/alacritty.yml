@@ -6,26 +6,33 @@ window:
     instance: Alacritty
     general: Alacritty
   opacity: 0.999 # this is necessary for MacOS not lag when switching windows
+  startup_mode: Maximized
 
 scrolling:
   history: 100000
   multiplier: 3
 
+shell:
+  program: /usr/bin/fish
+  args:
+    - -c
+    - zellij
+
 font:
   normal:
-    family: Fira Code
+    family: FiraCode Nerd Font
     style: Retina
   bold:
-    family: Fira Code
+    family: FiraCode Nerd Font
     style: Bold
   italic:
-    family: Fira Code
+    family: FiraCode Nerd Font
     style: Retina
   bold_italic:
-    family: Fira Code
+    family: FiraCode Nerd Font
     style: Retina
-  size: 16
-alt_send_esc: false
+  size: 12
+
 key_bindings:
   - { key: Right, mods: Alt, chars: "\x1BF" }
-  - { key: Left,  mods: Alt, chars: "\x1BB" }
+  - { key: Left, mods: Alt, chars: "\x1BB" }
