@@ -1,0 +1,48 @@
+[font]
+size = 12
+
+[font.bold]
+family = "FiraCode Nerd Font"
+style = "Bold"
+
+[font.bold_italic]
+family = "FiraCode Nerd Font"
+style = "Retina"
+
+[font.italic]
+family = "FiraCode Nerd Font"
+style = "Retina"
+
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Retina"
+
+[[keyboard.bindings]]
+chars = "\u001BF"
+key = "Right"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001BB"
+key = "Left"
+mods = "Alt"
+
+[scrolling]
+history = 100000
+multiplier = 3
+
+[shell]
+args = ["-c", "zellij"]
+program = "/usr/bin/fish"
+
+[window]
+opacity = 0.999
+startup_mode = "Maximized"
+
+[window.class]
+general = "Alacritty"
+instance = "Alacritty"
+
+[window.padding]
+x = 10
+y = 10
