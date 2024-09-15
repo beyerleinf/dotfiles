@@ -1,4 +1,5 @@
 eval "$(starship init zsh)"
+eval $(keychain --eval)
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH="$PATH:/opt/nvim-linux64/bin"
@@ -10,3 +11,6 @@ export NVM_DIR="$HOME/.nvm"
 export PATH=$PATH:/usr/local/go/bin
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias up="docker compose up"
+alias down="docker compose down"
+alias vim="nvim"

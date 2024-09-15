@@ -21,7 +21,8 @@ keymap.set("n", "<leader>tk", vim.cmd.tabn, { desc = "Go to next tab" })
 keymap.set("n", "<leader>tj", vim.cmd.tabp, { desc = "Go to previous tab" })
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<cr>", { desc = "Open current buffer in new tab" })
 
-keymap.set("n", "<Esc>", "<cmd>nohlsearch<cr>")
+keymap.set("n", "<esc>", "<cmd>nohlsearch<cr>")
+keymap.set("t", "<esc>", "<C-\\> <C-n>")
 
 keymap.set("n", "<A-j>", "<cmd>move +1<cr>", { desc = "Move line down" })
 keymap.set("n", "<A-k>", "<cmd>move -2<cr>", { desc = "Move line up" })
